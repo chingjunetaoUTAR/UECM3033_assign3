@@ -57,7 +57,8 @@ The solution is obtained and graph is plotted in the next section.
 Put your graphs here and explain.
 y0 is the number of prey while y1 is the number of predators.
 
-![Graph of y0 and y1 against t with y0(0)=0.1.png]
+![Graph of y0 and y1 against t with y0(0)=0.1.png](Graph of y0 and y1 against t with y0(0)=0.1.png) 
+
 The graph above shows that number of prey, y0 and the number of predator,y1 with year, t when the initial value condition y0(0)=0.1.
 We can see that the number of prey increase when the number of predator decreases. 
 
