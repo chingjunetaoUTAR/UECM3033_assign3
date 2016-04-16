@@ -26,6 +26,7 @@ Applying the Gaussian quadrature rule then results in the following approximatio
 $$\int_a^{b}f(x) dx= \frac{b-a}{2}\sum_{i=1}^{n} w_i f(\frac{b-a}{2}x_i + \frac{a+b}{x} ) $$
 
 The above calculation is done by using the following python code.
+
 transformed_x = (b-a)*x/2 + ((b+a)/2)    
 ans = ((b-a)/2)*sum(w*f(transformed_x))
 
@@ -42,19 +43,26 @@ x,w = np.polynomial.legendre.leggauss(n)
 Explain how you implement your `task2.py` here, especially how to use `odeint`.
 
 A ODE system (biological_system is) created and the following differential equations is defined in the system.
+
 $$ y'_0 = a(y_0 - y_0 y_1)$$
 $$ y'_1 = b(-y_1 + y_0 y_1)$$
 
 Initial values condition is defined as below.
+
 y_initial = [0.1, 1.0]
 
 The time from 0 to 5 years is defined by using linspace function in order to plot a smooth line graph.
+
 t = np.linspace(0,5,150)
+
 The odeint module in python is used to solve the ODE system. The function in python is defined below.
+
 sol = odeint(biological_system,y_initial,t,args=(a, b))
+
 The solution is obtained and graph is plotted in the next section.
 
 Put your graphs here and explain.
+
 y0 is the number of prey while y1 is the number of predators.
 
 ![Graph_of_y0_and_y1_01.jpg](Graph_of_y0_and_y1_01.jpg) 
@@ -83,3 +91,4 @@ Therefore, this system of ODE is not sensitive to the initial condition.
 -----------------------------------
 
 <sup>last modified: 16/4/2016 </sup>
+use [https://stackedit.io/editor](https://stackedit.io/editor) to render the equation if you cannot understand the equation.
