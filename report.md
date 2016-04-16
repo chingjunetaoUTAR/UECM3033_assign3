@@ -15,7 +15,22 @@ The reports, codes and supporting documents are to be uploaded to Github at:
 
 Explain how you implement your `task1.py` here.
 
+An integral over [a,b] must be changed into an integral over [-1,1] before applying the Gaussian quadrature rule. This interval transformation can be done in the following way.
+
+$$ u = T(x) = \frac{b-a}{2}x + \frac{b+a}{2} $$
+
+$$\int_a^{b}f(x) dx= \frac{b-a}{2}\int_{-1}^{1} f(\frac{b-a}{2}x + \frac{a+b}{x} )  dx$$ 
+
+Applying the Gaussian quadrature rule then results in the following approximation.
+
+$$\int_a^{b}f(x) dx= \frac{b-a}{2}\sum_{i=1}^{n} w_i f(\frac{b-a}{2}x_i + \frac{a+b}{x} ) $$
+
+
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
+
+x_i and w_i can be obtained by the polynomial module in python. The function is stated below.
+
+x,w = np.polynomial.legendre.leggauss(n)
 
 ---------------------------------------------------------
 
