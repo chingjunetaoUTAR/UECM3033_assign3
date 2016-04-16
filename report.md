@@ -62,16 +62,18 @@ y0 is the number of prey while y1 is the number of predators.
 The graph above shows that number of prey, y0 and the number of predator,y1 with year, t when the initial value condition y0(0)=0.1.
 We can see that the number of prey increase when the number of predator decreases. 
 
-![Graph of y1 against y0 with y0(0) = 0.1.png]
+![Graph of y1 against y0 with y0(0) = 0.1.png](Graph of y1 against y0 with y0(0) = 0.1.png) 
+
 The relationship of number of prey,y0 and number of predator,y1 can be explained in the graph above.
 We can see that there is a inverse relationship between y0 and y1.
 
 
 When the initial valus condition y0(0) change to 0.11.
 
-![Graph of y0 and y1 against t with y0(0)=0.11.png]
+![Graph of y0 and y1 against t with y0(0)=0.11.png](Graph of y0 and y1 against t with y0(0)=0.11.png) 
 
-![Graph of y1 against y0 with y0(0) = 0.11.png]
+![Graph of y1 against y0 with y0(0) = 0.11.png](Graph of y1 against y0 with y0(0) = 0.11.png) 
+
 
 Is the system of ODE sensitive to initial condition? Explain.
 
