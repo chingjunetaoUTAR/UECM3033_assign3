@@ -38,7 +38,7 @@ plt.title('Graph of y1 against y0 with y0(0) = 0.1')
 plt.xlabel('y0')
 plt.ylabel('y1')
 plt.grid()
-plt.savefig('Graph_of_y1_against y0_01.jpg')
+plt.savefig('y1_against_y0_01.jpg')
 plt.show()
 
 
@@ -56,7 +56,7 @@ plt.legend(loc='best')
 plt.xlabel('t')
 plt.ylabel('y')
 plt.grid()
-plt.savefig('Graph_of_y0_and_y1_011.jpg.jpg')
+plt.savefig('Graph_of_y0_and_y1_011.jpg')
 plt.show()
 
 
@@ -66,6 +66,6 @@ plt.title('Graph of y1 against y0 with y0(0) = 0.11')
 plt.xlabel('y0')
 plt.ylabel('y1')
 plt.grid()
-plt.savefig('Graph_of_y1_against y0_011.jpg')
+plt.savefig('y1_against_y0_011.jpg')
 plt.show()
 
