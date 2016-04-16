@@ -91,4 +91,5 @@ Therefore, this system of ODE is not sensitive to the initial condition.
 -----------------------------------
 
 <sup>last modified: 16/4/2016 </sup>
-use [https://stackedit.io/editor](https://stackedit.io/editor) to render the equation if you cannot understand the equation.
+
+Kindly use [https://stackedit.io/editor](https://stackedit.io/editor) to render the equation if you cannot understand the equation.
