@@ -30,6 +30,8 @@ The above calculation is done by using the following python code.
 transformed_x = (b-a)*x/2 + ((b+a)/2)    
 ans = ((b-a)/2)*sum(w*f(transformed_x))
 
+The answer is 0.400338097411 
+
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
 
 $$ x_i $$ and $$ w_i $$ can be obtained by the polynomial module in python. The function is stated below.
